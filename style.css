@@ -1,0 +1,85 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: burlywood;
+  }
+  
+  /* Navigation Menu Styles */
+  #navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    color: black;
+    padding: 10px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    
+  }
+  
+  #navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navbar ul li {
+    margin: 0 20px;
+  }
+  
+  #navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+  }
+  
+  /* Hover Effect */
+  #navbar ul li a:hover {
+    background-color: #555;
+    color: #f1f1f1;
+  }
+  
+  /* Active Menu Item (when scrolled) */
+  .scrolled #navbar {
+    background-color: #222;
+  }
+  
+  /* Section Styles */
+  section {
+    padding: 80px 20px;
+    margin-top: 60px;
+    height: 100vh;
+  }
+  
+  section h1 {
+    font-size: 3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  section p {
+    font-size: 1.5em
+  }
+  #services{
+    background-color: blueviolet;
+    color: white;
+  }
+
+  #about{
+    background-color: darkseagreen;
+    
+  }
+
+  #contact{
+   
+    background-color: darkgoldenrod;
+    color: white;
+
+
+  }
